@@ -1,0 +1,31 @@
+.bgcolor{
+    background-color:  rgb(31, 58, 46);;
+    color: white;
+}
+
+.container{
+    
+  
+    background-color:rgb(172, 210, 200)
+}
+.black{
+    background-color: black;
+}
+.margin{
+    margin-top: 10%;
+    margin-right: 3%;
+    margin-bottom: 9%;
+}
+
+.secondMargin{
+    margin-top: 10%;
+    margin-right: 3%;
+}
+
+.height{
+    height:90%;
+}
+/* body{
+   
+    margin-top: 1%;
+} */
