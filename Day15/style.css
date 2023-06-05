@@ -25,6 +25,7 @@ background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
 
 .pagination{
   display: flex;
+  
   align-items: center;
   padding: 10px 40px;
   border-radius: 6px;
@@ -75,4 +76,60 @@ ul li.active{
   background-color: #FA8BFF;
 background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
 
+}
+
+@media screen and (max-width: 768px) {
+  /* Adjust the styles for screens up to 768px wide */
+  .pagination {
+    padding: 10px 20px;
+  }
+
+  ul {
+    margin: 10px 20px;
+  }
+
+  ul li {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+  }
+
+  .btn1,
+  .btn2 {
+    font-size: 18px;
+  }
+
+  .btn1 img,
+  .btn2 img {
+    width: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Adjust the styles for screens up to 480px wide */
+  .pagination {
+    padding: 10px;
+  }
+
+  ul {
+    margin: 10px;
+  }
+
+  ul li {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+    line-height: 35px;
+  }
+
+  .btn1,
+  .btn2 {
+    font-size: 16px;
+  }
+
+  .btn1 img,
+  .btn2 img {
+    width: 25px;
+  }
 }
