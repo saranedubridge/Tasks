@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form and Table Example</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+  <h1>Registration Form</h1>
+  <form id="registrationForm">
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" required><br>
+
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" required><br>
+
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" required><br>
+
+    <label for="pincode">Pincode:</label>
+    <input type="text" id="pincode" name="pincode" required><br>
+
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender" required>
+      <option value="">Select</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select><br><br>
+
+    <label for="foodChoice">Choice of Food (Select at least 2):</label><br>
+    <input type="checkbox" id="pizza" name="foodChoice" value="pizza">
+    <label for="pizza">Pizza</label><br>
+    <input type="checkbox" id="burger" name="foodChoice" value="burger">
+    <label for="burger">Burger</label><br>
+    <input type="checkbox" id="pasta" name="foodChoice" value="pasta">
+    <label for="pasta">Pasta</label><br>
+    <input type="checkbox" id="salad" name="foodChoice" value="salad">
+    <label for="salad">Salad</label><br>
+    <input type="checkbox" id="sushi" name="foodChoice" value="sushi">
+    <label for="sushi">Sushi</label><br>
+
+    <label for="state">State:</label>
+    <input type="text" id="state" name="state" required><br>
+
+    <label for="country">Country:</label>
+    <input type="text" id="country" name="country" required><br>
+
+
+    <div class="button-group"><br>
+    <input type="submit" value="Submit">
+    <button type="button" id="clearButton">Clear</button>
+  </div>
+  </form>
+
+  <h2>Registered Users</h2>
+  <div class="table-container">
+  <table id="userTable">
+    <thead>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Address</th>
+        <th>Pincode</th>
+        <th>Gender</th>
+        <th>Food Choices</th>
+        <th>State</th>
+        <th>Country</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Table rows will be dynamically populated -->
+    </tbody>
+  </table>
+</div>
+
+  <script src="./script.js"></script>
+  
+</body>
+</html>
