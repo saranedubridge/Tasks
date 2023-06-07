@@ -1,0 +1,38 @@
+body{
+
+    background-image: radial-gradient( circle 993px at 0.5% 50.5%,  rgba(137,171,245,0.37) 0%, rgba(245,247,252,1) 100.2% );
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,214,171,1) 0%, rgba(255,182,182,1) 90% );
+    color: whitesmoke;
+}
+
+
+.card-header{
+ 
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+div{
+    /* border: 1px solid violet; */
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(147,67,67,1) 0%, rgba(111,27,27,1) 90% );
+    
+    background-image: radial-gradient( circle farthest-corner at 11.7% 80.6%,  rgba(249,185,255,1) 0%, rgba(177,172,255,1) 49.3%, rgba(98,203,255,1) 89% );
+}
+.btn{
+ background-color: green;
+ color: white;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: darkred;
+}
+/* .container{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,252,200,1) 0%, rgba(255,247,94,1) 90% );
+} */
