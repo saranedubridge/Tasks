@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd sum</title>
+</head>
+<body>
+
+    <script>
+
+         let request= new XMLHttpRequest();
+         request.open('get','https://raw.githubusercontent.com/rvsp/restcountries-json-data/master/res-countries.json')
+         request.onload=function(values){
+            
+            let data=JSON.parse(request.response)
+
+            population=(values)=>{
+                          
+            //    if (values.population <20000){
+            //     // if(values.capital!==undefined)
+                console.log(values)
+            
+            //    }
+           }
+
+                  data.filter(population)
+        }
+        
+
+                    request.send();
+
+
+            
+
+
+            
+
+       
+
+    </script>
+
+
+
+
+    
+</body>
+</html>
