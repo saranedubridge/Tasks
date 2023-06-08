@@ -1,0 +1,14 @@
+.container {
+    text-align: center;
+  }
+  
+  .search-container {
+    margin: 20px 0;
+  }
+  
+  #dictionaryResults {
+    margin-top: 20px;
+  }
+  body{
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  }

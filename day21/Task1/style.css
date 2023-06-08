@@ -1,0 +1,56 @@
+.container {
+    text-align: center;
+    
+  }
+  
+  h1{
+    display: flex;
+    justify-content: center;
+  }
+  .search-container {
+    margin: 20px 0;
+  }
+  
+  #weatherDisplay {
+    margin-top: 20px;
+  }
+  .container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .search-container {
+    margin: 20px 0;
+  }
+  
+  #weatherDisplay {
+    margin-top: 20px;
+  }
+  
+  /* Responsive Styles */
+  @media only screen and (max-width: 600px) {
+    .container {
+      max-width: 400px;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .container {
+      max-width: 300px;
+    }
+  }
+  #searchBtn{
+    background-color: green;
+    color: white;
+    padding: 10px;
+  }
+
+  #countryInput{
+    background-color: aliceblue;
+    padding: 10px;
+  }
+
+  Body{
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  }

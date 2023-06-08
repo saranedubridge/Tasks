@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#countdown {
+    text-align: center;
+}
+body{
+    background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+}
+
+h1{
+    color:aqua
+}
